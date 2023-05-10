@@ -1,0 +1,35 @@
+.row {
+    width: 1200px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: row;
+
+}
+
+.col {
+    margin: 10px;
+    padding: 10px;
+    background-color: cadetblue; 
+    border-color: black;
+    flex: 1;
+}
+
+.col-2 {
+    margin: 10px;
+    padding: 10px;
+    background-color: cadetblue; 
+    border-color: black;
+    flex: 0 1 800px; 
+    /* this can work for part 2 only */
+}
+
+.col-3 {
+    margin: 10px;
+    padding: 10px;
+    background-color: cadetblue; 
+    border-color: black;
+    flex: 0 1 720px; 
+    /* find another way besides the exact px? */
+}
