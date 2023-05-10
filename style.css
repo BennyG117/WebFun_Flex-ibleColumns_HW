@@ -1,5 +1,4 @@
 .row {
-    width: 1200px;
     height: 110px;
     display: flex;
     align-items: center;
@@ -21,7 +20,7 @@
     padding: 10px;
     background-color: cadetblue; 
     border-color: black;
-    flex: 0 1 800px; 
+    flex: 2; 
     /* this can work for part 2 only */
 }
 
@@ -30,6 +29,6 @@
     padding: 10px;
     background-color: cadetblue; 
     border-color: black;
-    flex: 0 1 720px; 
+    flex: 3; 
     /* find another way besides the exact px? */
 }
